@@ -1,0 +1,18 @@
+Calcular el salario semanal de los empleados de una empresa, sabiendo que éstos se calculan con base en las horas semanales trabajadas y de acuerdo con un precio especificado por horas, si se pasan de cuarenta horas semanales, las horas extraordinarias se pagarán a razón de 1.5 veces la hora ordinaria.
+solución
+Calcular el promedio de tres números ingresados por el usuario.
+solución
+Encontrar el número más grande en una lista de números ingresados por el usuario.
+solución
+Ordenar una lista de números ingresados por el usuario en orden ascendente.
+solución
+Encontrar el número más pequeño en una lista de números ingresados por el usuario.
+solución
+Verificar si un número ingresado por el usuario es un número primo.
+solución
+Encontrar la suma de los números impares en una lista de números ingresados por el usuario.
+solución
+Encontrar la suma de los números pares en una lista de números ingresados por el usuario.
+solución
+Fibonacci: Escribe un algoritmo que calcule los n primeros términos de la sucesión de Fibonacci. La sucesión de Fibonacci es una secuencia de números enteros en la que cada término es la suma de los dos anteriores. solución
+Máximo común divisor: Escribe un algoritmo que calcule el máximo común divisor (MCD) de dos números. El MCD es el número más grande que divide a ambos números sin dejar resto. solución

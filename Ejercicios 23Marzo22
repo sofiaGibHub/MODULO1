@@ -1,18 +1,148 @@
-Calcular el salario semanal de los empleados de una empresa, sabiendo que éstos se calculan con base en las horas semanales trabajadas y de acuerdo con un precio especificado por horas, si se pasan de cuarenta horas semanales, las horas extraordinarias se pagarán a razón de 1.5 veces la hora ordinaria.
+1.Calcular el salario semanal de los empleados de una empresa, sabiendo que estos se calculan con base en las horas semanales trabajadas y de acuerdo con 
+un precio especificado por horas, si se pasan horas de cuarenta horas semanales, las extraordinarias se pagarán a razón de 1.5 veces la hora ordinaria.
+
 solución
-Calcular el promedio de tres números ingresados por el usuario.
+Entrada: horas_t, precio_h
+Salida: Salario
+
+1. Solicitar horas_t, precio_h
+2. Verificar que hora_t y salario >0
+3. Si horas_t =< 40
+    salario= horas_t * precio_h
+3. Si no: salario = hora_t * ((precio_h/2)+ precio_h)   
+4. Mostrar Salario
+Fin del algoritmo        
+
+
+2.Calcular el promedio de tres números ingresados ​​por el usuario.
 solución
-Encontrar el número más grande en una lista de números ingresados por el usuario.
+
+Entrada: num1, num2, num3
+Salida: promedio
+
+1. Solicitar num1, num2 y num3
+2. Sumar num1,num2,num2
+3. El total dividirlo entre 3
+4. Mostrar el promedio
+Fin del algoritmo
+
+
+3.Encontrar el número más grande en una lista de números ingresados ​​por el usuario.
 solución
-Ordenar una lista de números ingresados por el usuario en orden ascendente.
+
+Entrada: lista de n numeros
+Salida: Num_mas_grande
+
+1. Inicio un contador con 0
+2. contador le sumo 1
+3. Solicitar un numero_dado
+4. Si me dan un numero entonces 
+   5. Pregunto si es el 1er numero que me dan osea contador = 1 entonces:
+    5.1. Guardar el numero_dado en num_mas_grande
+    5.2 Regresar al punto 3
+  6. Si es no es el primer numero que me dan osea contador > 1 entonces:
+    6.1 Verificar si numero_dado es > que num_mas_grande
+    6.2 Si es mayor numero_dado, reemplazar num_mas_grande por numero_dado
+    2.4 Si no es mayor numero_dado, ir al punto 2 y volver a empezar
+7. Si no me da mas numeros
+   7.1 Mostrar num_mas_grande
+8. Fin del algoritmo
+
+
+4. Ordenar una lista de números ingresados ​​por el usuario en orden ascendente.
 solución
-Encontrar el número más pequeño en una lista de números ingresados por el usuario.
+
+Entrada: lista de n numeros
+Salida: lista ordenada
+
+
+1. inicio un contador con 1
+1.1 sumarle 1 a contador
+2- Solicitar un numero_nuevo
+3. Si me dan un numero_nuevo 
+   3.1 Pregunto si contador = 1, entonces:
+     3.1.1 Guardar el numero_nuevo en lista en la 1ra posicion
+   3.2 Si contador >1 entonces
+      3.2.1 Recorro la lista comparando si el nuevo_numero es menor a los que estan en la lista
+      3.2.2 Si nuevo_numero es menor al numero de la lista, inserto el nuevo_numero antes del numero mayor de la lista
+      3.2.3 Si no es menor, entonces inserto nuevo_numero despues del numero que ya esta en la lista  
+   3.3 Regreso al punto 1.1
+4. Muestro la lista ordenada
+4. Fin del algoritmo
+
+5. Encontrar el número más pequeño en una lista de números ingresados ​​por el usuario.
 solución
-Verificar si un número ingresado por el usuario es un número primo.
+
+Entrada: lista de n numeros
+Salida: Num_mas_peque
+
+1. Inicio un contador con 0
+2. contador le sumo 1
+3. Solicitar un numero_dado
+4. Si me dan un numero entonces 
+   5. Pregunto si es el 1er numero que me dan osea contador = 1 entonces:
+    5.1. Guardar el numero_dado en num_mas_peque
+    5.2 Regresar al punto 3
+  6. Si es no es el primer numero que me dan osea contador > 1 entonces:
+    6.1 Verificar si numero_dado es < que num_mas_peque
+    6.2 Si es menor numero_dado, reemplazar num_mas_peque por numero_dado
+    2.4 Si no es menor numero_dado, ir al punto 2 y volver a empezar
+7. Si no me da mas numeros
+   7.1 Mostrar num_mas_peque
+8. Fin del algoritmo
+
+
+6. Verificar si un número ingresado por el usuario es un número primo.
 solución
-Encontrar la suma de los números impares en una lista de números ingresados por el usuario.
+
+
+
+
+7.Encontrar la suma de los números impares en una lista de números ingresados ​​por el usuario.
 solución
-Encontrar la suma de los números pares en una lista de números ingresados por el usuario.
+
+Entrada: lista de n numeros
+Salida: Suma de numeros Total
+
+1. A Total le pongo 0
+2. Solicitar un numero_dado
+3. Si me dan un numero entonces 
+   4. Divido numero_dado entre 2, si el RESTO de la divicion es <> a 0
+      entonces sumo a Total el numero_dado
+   5. Si RESTO de la division es igual a 0, regreso al punto 2 
+6. Si ya no me dan numero_dado, entonces Mostrar Total
+7. Fin del algoritmo
+
+8.Encontrar la suma de los números pares en una lista de números ingresados ​​por el usuario.
 solución
-Fibonacci: Escribe un algoritmo que calcule los n primeros términos de la sucesión de Fibonacci. La sucesión de Fibonacci es una secuencia de números enteros en la que cada término es la suma de los dos anteriores. solución
-Máximo común divisor: Escribe un algoritmo que calcule el máximo común divisor (MCD) de dos números. El MCD es el número más grande que divide a ambos números sin dejar resto. solución
+
+Entrada: lista de n numeros
+Salida: Suma de numeros Total
+
+1. A Total le pongo 0
+2. Solicitar un numero_dado
+3. Si me dan un numero entonces 
+   4. Divido numero_dado entre 2, si el RESTO de la divicion es = a 0
+      entonces sumo a Total el numero_dado
+   5. Si RESTO de la division es <> a 0, regreso al punto 2 
+6. Si ya no me dan numero_dado, entonces Mostrar Total
+7. Fin del algoritmo
+
+9.Fibonacci: Escribe un algoritmo que calcule los n primeros términos de la sucesión de Fibonacci.
+ La sucesión de Fibonacci es una secuencia de números enteros en la que cada término es la suma de los dos anteriores. 
+solución
+
+
+10. Máximo común divisor: Escribe un algoritmo que calcule el máximo común divisor (MCD) de dos números. El MCD es el número más 
+grande que divide a ambos números sin dejar resto. 
+solución
+
+Entrada: num1, num2
+Salida: maximo_div
+
+
+7. Fin del algoritmo
+
+9.Fibonacci: Escribe un algoritmo que calcule los n primeros términos de la sucesión de Fibonacci.
+ La sucesión de Fibonacci es una secuencia de números enteros en la que cada término es la suma de los dos anteriores. 
+solución
